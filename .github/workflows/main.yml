@@ -2,7 +2,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-    lint:
+  lint:
     name: Lint
     runs-on: ubuntu-latest
 
